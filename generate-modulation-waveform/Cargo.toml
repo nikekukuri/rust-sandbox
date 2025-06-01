@@ -1,0 +1,15 @@
+[package]
+name = "generate-modulation-waveform"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "*"
+serde = { version = "1.0", features = ["derive"] }
+toml = "*"
+num-complex = "*"
+rustfft = "*"
+plotters = "*"
+plotters-bitmap = "*"
+eframe = "*"
+image = "*"

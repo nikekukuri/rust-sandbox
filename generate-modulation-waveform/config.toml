@@ -1,0 +1,6 @@
+symbol_count       = 100       # シンボル数
+fc                 = 1000.0    # キャリア周波数 [Hz]
+fs                 = 100000.0  # サンプリング周波数 [Hz]
+samples_per_symbol = 100       # サンプル数／シンボル
+
+modulation = "QAM16"
